@@ -13,7 +13,7 @@ log = commonware.log.getLogger('playdoh')
 def home(request):
     """Main example view."""
     data = {}  # You'd add data here that you're sending to the template.
-    log.debug("I'm alive now!")
+    log.debug("I'm alive now!") # another test
     return jingo.render(request, 'examples/home.html', data)
 
 
